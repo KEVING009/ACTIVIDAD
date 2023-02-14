@@ -28,7 +28,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    margin-top: -115vh;
+    margin-top: -126vh;
  }
 
  .card{
@@ -36,7 +36,7 @@
     justify-content: center;
     align-items: center;
     width: clamp(1100px,80vh,80vh);
-    height: clamp(1rem,35vh,35vh);
+    height: clamp(1rem,30vh,30vh);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: rgb(244, 244, 244);
     border-radius:10px ;
@@ -94,16 +94,18 @@
 
            display: flex;
            flex-direction: column;
-           height: 400px;
+           height: 450px;
 
       }
 }
 
 @media (max-width: 650px) {
       .image-container{
-            margin-top: 5px;
-            height: 40%;
-            width: 40%;
+        margin-left: -2vh;
+       
+
+            height: 20%;
+            width: 20%;
       }
 
 }
