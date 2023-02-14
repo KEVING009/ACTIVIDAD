@@ -10,13 +10,14 @@
  body{
     font-size-adjust: 2000%;
     height: 100%;
-    background-color: rgb(244, 244, 244);
+    background-color: rgb(255, 255, 255);
  }
  h1{
     font-family: sans-serif;
     margin: 0 1.8em 0 0;
     font-size: clamp(6px, 5vw, 2.0rem);
     margin-bottom:clamp(0.4em,3vh,1em) ;
+    color: crimson;
   
 
  }
@@ -35,9 +36,9 @@
     justify-content: center;
     align-items: center;
     width: clamp(1100px,80vh,80vh);
-    height: clamp(15rem,40vh,40vh);
+    height: clamp(1rem,35vh,35vh);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    background-color: white;
+    background-color: rgb(244, 244, 244);
     border-radius:10px ;
     
  }
@@ -99,8 +100,10 @@
 }
 
 @media (max-width: 650px) {
-      img{
-            margin: 5px;
+      .image-container{
+            margin-top: 5px;
+            height: 40%;
+            width: 40%;
       }
 
 }
