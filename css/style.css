@@ -82,17 +82,17 @@
 
  }
 
- @media(max-width:650px){
+ @media(max-width:1140px){
     .image-container{
         width: 40%;
         height: 20%;
         margin-bottom: -0%;
-        margin-left: 80%;
+        margin-left: 90%;
     }
     .card{
         flex-direction: column;
         width: 80%;
-        height: 60%;
+        height: 40%;
     }
     .content-container{
        display: flex;
@@ -101,7 +101,7 @@
     }
 
 
-    .content-container h1{
+    .content-container {
         width: 100%;
     }
 
@@ -112,3 +112,20 @@
 
     }
 }
+@media(max-height:915px){
+    .card-container{
+        height: 85%;
+    }
+ }
+
+ @media(min-height:730px){
+    .card-container{
+        height: 100%;
+    }
+ }
+
+ @media(max-height: 919px){
+    .card-container{
+        height: 100%;
+    }
+ }
