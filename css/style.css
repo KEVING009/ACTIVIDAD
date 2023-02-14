@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    height:100%;
+
+ }
+
+ body{
+    font-size-adjust: 110%;
+    height: 100%;
+    background-color: rgb(255, 249, 235);
+ }
+
+ .card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+ }
+
+ .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: clamp(600px,50vh,50vh);
+    height: clamp(25rem,50vh,50vh);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    border-radius:10px ;
+    
+ }
+
+ .image-container{
+    width: 30%;
+    height: 40%;
+ }
+ .content-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: clamp(10px,2vw,2.5em) clamp(8px,3vw,2.5em)
+ }
+
+ .content-container .title{
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+ }
+ .content-container h1{
+    font-family: "Fraunces";
+    margin: 0 1.8em 0 0;
+    font-size: clamp(6px, 5vw, 2.0rem);
+    margin-bottom:clamp(0.4em,3vh,1em) ;
+
+ }
+ .content-container h3{
+    font-size: clamp(15px,3vw,1rem);
+ }
+ .content-container *{
+    height: auto;
+ }
+ .content-container p{
+    padding-right: 0.2em;
+    margin-bottom:0.8em;
+    
+ }
